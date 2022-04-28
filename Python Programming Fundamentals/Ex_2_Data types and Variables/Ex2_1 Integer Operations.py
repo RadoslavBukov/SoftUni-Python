@@ -3,7 +3,7 @@ Input	    Output              Input       Output
 10          30                  15          42
 20                              14
 3                               2
-3	                            3
+3	                              3
 """
 
 a = int(input())
