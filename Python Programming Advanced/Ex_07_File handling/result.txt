@@ -1,0 +1,16 @@
+.Ex07_00 Test Demo
+- - - Ex07_00 Test Demo
+.py
+- - - Ex07_00 Directory.py
+- - - Ex07_00 Test.py
+- - - Ex07_01 Even Lines.py
+- - - Ex07_02 Line Numbers.py
+- - - Ex07_03 File Manipulator.py
+- - - Ex07_04 Directory Traversal v2.py
+- - - Ex07_04 Directory Traversal.py
+.txt
+- - - Ex07_00 Test Demo.txt
+- - - Ex07_01 Even Lines.txt
+- - - Ex07_02 Line Numbers.txt
+- - - Ex07_02 Line Numbers_output.txt
+- - - result.txt
