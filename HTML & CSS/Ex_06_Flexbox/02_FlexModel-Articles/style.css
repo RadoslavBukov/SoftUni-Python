@@ -1,0 +1,26 @@
+html{
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    height: 80vh;
+    margin: 100px;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.2;
+}
+
+article{
+    width: 20%;
+}
+
+section{
+    margin-top: 200px;
+    display: flex;
+    justify-content:space-between;
+    max-width: 70vw;
+    gap: 50px;
+}
+
+
+
