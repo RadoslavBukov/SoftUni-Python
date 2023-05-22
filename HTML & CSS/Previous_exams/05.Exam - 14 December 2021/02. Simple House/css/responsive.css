@@ -1,0 +1,41 @@
+@media (max-width: 600px) {
+  .tm-header-inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    padding: 20px 0px;
+  }
+
+  .tm-section-title {
+    margin-left: 0;
+  }
+
+  .tm-gallery {
+    margin-left: 0;
+  }
+
+  .tm-gallery-page {
+    margin: unset;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tm-paging-link {
+    width: 170px;
+  }
+}
+.tm-cta-section {
+  width: unset;
+}
