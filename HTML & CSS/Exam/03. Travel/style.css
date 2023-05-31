@@ -1,0 +1,282 @@
+/*
+button_color: #370511
+
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    box-sizing: border-box;
+}
+
+body main {
+    min-width: 600px;
+    max-width: 1800px;
+}
+
+h1.all{
+    color:red;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    position:absolute;
+}
+
+header p {
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+}
+
+header nav .black{
+    background-color: #370511;
+    color: white;
+    font-size: 0.7rem;
+    padding: 5px 20px;
+    border-radius: 50px;
+    z-index: 1;
+    vertical-align: middle;
+}
+
+body > header > nav > ul > li.black > a{
+    color:white;
+}
+
+
+.color-word {
+    color: #008CBA;
+}
+
+main .greating {
+    width: 100vw;
+    background-image: url("./images/landing-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.greating div.info {
+    position: relative;
+    display: inline-block;
+    margin: 100px 100px 80px 100px;
+}
+
+.greating .info h2 {
+    position: relative;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    z-index: 1;
+    margin: 5px;
+}
+
+.greating .info h3 {
+    position: relative;
+    font-size: 1.3rem;
+    z-index: 1;
+    margin: 5px;
+}
+
+.greating .info p {
+    position: relative;
+    display: inline-block;
+    background-color: #370511;
+    color: white;
+    font-size: 0.7rem;
+    padding: 5px 20px;
+    border-radius: 50px;
+    z-index: 1;
+    margin-top: 20px;
+}
+
+.info div{
+    font-size: 0.8rem;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 100px;
+}
+
+.welcome h2 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.welcome p {
+    text-align: center;
+    margin: 0px;
+}
+
+.serveces {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: #EEF0F1;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.serveces article {
+    flex-basis: 25%;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serveces article img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.serveces article h4 {
+    color: grey;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+
+.serveces article p {
+    color: grey;
+    text-align: center;
+    margin: 5px;
+    font-size: 0.7rem;
+}
+
+.serveces article a {
+    text-decoration: none;
+    color:black;
+    font-size: 12px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    width: max-content;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+
+.subscribe {
+    background-color: #5b6063;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.subscribe h3 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.subscribe h3::after{
+    content: '';
+    border-bottom: 3px solid #FFFFFF;
+    width: 70px;
+    display: block;
+    margin: 0 auto;
+}
+
+.subscribe p {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+form {
+    position: relative;
+    left:30%
+    
+}
+input {
+    display: inline-block;
+    background-color: rgb(148, 152, 156);
+    border: none;
+    border-radius: 5px;
+    width: 30%;
+    font-size: 12px;
+    padding: 5px;
+
+}
+
+button {
+    background-color: #6BBFFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 12px;
+}
+
+
+footer nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.heading{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+footer p {
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+    font-size: 1.2rem;
+    padding: 5px;
+    font-weight: bolder;
+    line-height: 150px;
+    vertical-align: middle;
+}
+
+body > footer > nav > ul:nth-child(4) > div > a{
+    margin-right: 10px;
+}
+
+i {
+    color: white;
+}
+
+
