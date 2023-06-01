@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: url(./image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-weight: 600;
+}
+
+.container{
+  margin: 140px 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+.plan{
+  background-color: #ffffff;
+  padding: 30px;
+  line-height: 30px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  max-width: 424px;
+}
+
+.planbigger{
+  height: fit-content;
+  min-height: 560px;
+}
+
+.price{
+  margin: 40px 0px;
+}
+
+.bignumbers{
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.annualinfo{
+  font-weight: lighter;
+  font-size: 10px;
+  color: gray;
+  margin-bottom: 8px;
+}
+
+ul {
+  /* all: unset; */
+  padding: 0px;
+  margin: 4px;
+}
+
+button{
+  border-color: black;
+  background-color: black;
+  color: white;
+  font-weight: lighter;
+  margin: 0px 0px;
+  padding: 8px 16px;
+  align-self: flex-end;
+}
+
+.planButton{
+  align-items: flex-end;
+  margin-top: 30px;
+}
+
+.buttonStandart{
+  margin-top: 60px;
+}
+
+h2{
+  text-transform: uppercase;
+  font-weight: bold;
+}
