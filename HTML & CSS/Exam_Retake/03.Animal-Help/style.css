@@ -1,0 +1,285 @@
+/*
+light_blue: #85dcff
+ */
+
+* {
+     box-sizing: border-box;
+}
+
+ html{
+    max-width: 1500px;
+}
+ 
+body main {
+     min-width: 600px;
+     max-width: 1800px;
+}
+ 
+body {
+     font-family: 'Arial', sans-serif;
+     margin: 20px;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    gap: 700px;
+    font-weight: bold;
+ }
+ 
+header p {
+     font-weight: bold;
+     font-size: 1rem;
+     line-height: 70px;
+     vertical-align: middle;
+ } 
+ 
+header nav ul {
+     display: flex;
+     gap: 20px;
+     list-style-type: none;
+}
+ 
+header nav ul li a {
+     text-decoration: none;
+     color: black;
+     font-size: 16px;
+     font-weight: bold;
+}
+
+.firstSection{
+    display: flex;
+}
+
+.donate {
+    background-color: #85dcff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 50px;
+    gap: 20px;
+}
+
+.donate > img{
+    width: 48%;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.info {
+    align-self: center;
+    padding: 0px 100px;
+}
+
+.info > p{
+    margin-bottom: 30px;
+}
+
+
+.info > h3{
+    font-weight: bolder;
+    font-size:x-large;
+    padding-bottom: 20px;
+}
+
+.buttons{
+    display: flex;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 12px;
+    width: 290px;
+}
+
+.whiteButton > button{
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    margin-right: 20px;
+}
+
+
+/* SECOND SECTION */
+
+.secondSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 100px;
+}
+
+.secondSection > h2{
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+.secondSectionP{
+    text-align: center;
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+
+.serveces{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.serviceInfo{
+    text-align: center;
+    max-width: 23%;
+}
+
+.serviceInfo > h4 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.workTo{
+    text-align: center;
+    background-color: #85dcff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.workTo > button {
+    width: 10px;
+}
+
+.lists{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 150px;
+    gap: 50px;
+}
+
+.lists > ul {
+    align-self: center;
+    text-align: start;
+    /* columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2; */
+    /* float: left; */
+}
+
+.lists > ul > li {
+    padding-bottom: 30px;
+}
+
+.fa-house, .fa-helicopter, .fa-pencil {
+    color: #85dcff;
+    font-size: 120px;
+    padding-bottom: 20px;
+}
+
+.fa-circle{
+    font-size: smaller;
+}
+
+.animals{
+    text-align: center;
+}
+
+.animals > h2{
+    font-size: 30px;
+    font-weight:900;
+    padding-bottom: 20px;
+}
+
+.animalsPic{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 30px;
+    margin-bottom: 40px;
+}
+
+.animalsPic > img {
+    width: 23%;
+    object-fit: cover;
+    margin: 20px 0px;
+}
+
+.howWork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 100px;
+    gap: 20px;
+}
+
+.howWork > h3{
+    margin-bottom: 20px;
+}
+
+.card{
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+.card > h3 {
+    background-color: #85dcff;
+    padding: 20px;
+}
+
+.card > p{
+    padding: 20px;
+}
+
+.contactsSec{
+    display: flex;
+}
+
+.contactsSec > img {
+    width: 50%;
+    object-fit: cover;
+    margin: 20px 0px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 10px;
+    padding: 0px 30px;
+}
+
+input {
+    margin: 30px 0px;
+    width: 50%;
+}
+
+.send {
+    width: 50%;
+}
+
+footer > nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    font-weight: bolder;
+}
+
+.copyRight{
+    font-size: smaller;
+}
+
+.icons{
+    display: flex;
+    gap: 15px;
+}
+
+.fa-brands{
+    color:black;
+    font-weight:bold;
+    font-size: 20px;
+}
