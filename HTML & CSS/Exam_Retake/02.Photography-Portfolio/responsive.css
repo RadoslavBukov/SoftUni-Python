@@ -1,0 +1,74 @@
+@media (max-width: 600px) {
+
+    .navigation-nav{
+        display: none;
+    } 
+
+    .home-text{
+        display: none;
+    }
+
+    .home-text-container{
+        max-width: 85%;
+        margin-bottom: 20px;
+    }
+
+    .home-tab-selector-header{
+        max-width: 90%;
+    }
+
+    .home-tab-selector-cards-container {
+        display: block;
+    }
+
+    .portofolio-card-speaker-card{
+        margin-bottom: 40px;
+    }
+
+    .home-image{
+        display: none;
+    }
+
+    .home-portofolio{
+        margin-bottom: 0px;
+    }
+
+    .home-about{
+        padding: 34px 10px;
+        margin-top: 30px;
+    }
+
+    .home-process{
+        padding: 34px 00px;
+    }
+
+    .section-container:last-of-type {
+        padding: 34px 10px;
+    }
+
+    .home-text10{
+        margin-right: 40px;
+    }
+
+    .home-top-part{
+        display: block;
+    }
+
+    .home-subscribe-container{
+        width: auto;
+    }
+
+    .home-max-width1{
+        justify-content: center;
+    }
+
+    .home-max-width2{
+        padding: 0px 30px;
+    }
+
+    .home-links-container{
+        flex-direction: column;
+        gap:30px;
+        margin-bottom: 20px;
+    }
+}
